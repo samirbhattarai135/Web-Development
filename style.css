@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0;
+   
+}
+header{ 
+    background-attachment: fixed;
+}
+h1{
+    font-size: 40px;
+}
+footer, nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    overflow: hidden;
+}
+.right{
+    margin-left: auto;
+}
+footer a, nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+   
+   
+}
+a:hover{
+    background-color: rgb(245, 191, 191);
+    color: rgb(121, 86, 226);
+}
+section{
+    text-align: center;
+    padding: 10px;
+    
+}
+section h2 span{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,165,0,1) 0%, rgba(249,72,64,1) 100%);
+padding: 10px 55px;
+border-radius: 150px;
+color: white;
+}
+section:nth-child(even){
+    background-color: rgba(224, 205, 205, 0.871);
+}
+iframe{
+   width: 49%;
+   height: 400px;
+}
+img{
+    padding: 5px;
+}
+h2{
+    padding-bottom: 40px;
+}
+
+
+.carousel-cell {
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell video{
+    max-width: 100%;
+}
+.carousel-cell img{
+    max-width: 100%;
+}
+.profile{
+    border-radius: 50%;
+    
+}
+h3{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+h4{
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #120f5e;
+    
+}
+.para{
+    color: #1c1a3a;
+    margin: 0px 30px;
+    font-weight: 900;
+    padding-bottom: 10px;
+
+}
+.handles a{
+    background-color: rgb(125 125 125/25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    font-size: 1.25em;
+
+    
+}
+.handles a i{
+    margin: 5px;
+
+}
+.yt{
+    color: #FF0000;
+}
+.fb{
+    color: #3b5998;
+}
+.insta{
+    color:#c13584;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .right{
+        margin-left: 0%;
+    }
+}
